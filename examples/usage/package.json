@@ -1,0 +1,24 @@
+{
+  "name": "usage",
+  "version": "1.0.0",
+  "private": true,
+  "ws": {
+    "type": "spa"
+  },
+  "scripts": {
+    "ws": "../../node_modules/.bin/ws",
+    "build": "npm run -s ws build",
+    "serve": "npm run -s ws serve",
+    "watch": "npm run -s ws watch",
+    "help": "npm run -s ws -h"
+  },
+  "dependencies": {
+    "@types/react": "^0.14.33",
+    "@types/react-dom": "^0.14.16",
+    "fela": "^1.1.0",
+    "normalize.css": "^4.2.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-fela": "^2.1.0"
+  }
+}

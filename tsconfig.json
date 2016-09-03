@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "jsx": "react",
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

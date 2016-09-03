@@ -1,0 +1,27 @@
+{
+  "name": "counter-component",
+  "version": "1.0.0",
+  "private": true,
+  "webpack": "src/index.js",
+  "ws": {
+    "type": "browser"
+  },
+  "scripts": {
+    "ws": "./node_modules/.bin/ws",
+    "build": "npm run -s ws build",
+    "serve": "npm run -s ws serve",
+    "watch": "npm run -s ws watch",
+    "help": "npm run -s ws -h"
+  },
+  "devDependencies": {
+    "@mercateo/ws": "^1.0.1-2"
+  },
+  "dependencies": {
+    "@types/react": "^0.14.33",
+    "mobx": "^2.0.0",
+    "mobx-react": "^3.0.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-fela": "^2.1.0"
+  }
+}
